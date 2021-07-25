@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bulma.css">
+    <link rel="stylesheet" href="./main.js">
+</head>
+<body>
+    <header class="cont">
+        <div class="card row-custom">
+            <div class="card-content">
+                <div class="content" style="height: 100px;">
+                    <div class="columns">
+                        <div class="column">
+                            <button class="button is-primary" style="width: 100% !important;"onclick="addData();" >insertar</button>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="column">
+                            <input id="nombre" class="input-custom input is-primary" type="text" placeholder="Nombre">
+                            <br>
+                            <br>
+                            <input id="ap_mat" class="input-custom input is-primary" type="text" placeholder="ap_Mat">
+                        </div>
+                        <div class="column">
+                            <input id="ap_pat" class="input-custom input is-primary" type="text" placeholder="ap_Pat">
+                            <br>
+                            <br>
+                            <input id="edad" class="input-custom input is-primary" type="text" placeholder="edad">
+                        </div>
+                    </div>
+                    <div id="table-container" class="table-container">
+                        <table id="table" class="table">
+                            <tr>
+                                <td>id</td> <td>Nombre</td> <td>Apellido paterno</td> <td>Apellido Materno</td> <td>edad</td>
+                            </tr>
+   
+                           </table>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </header>
+    <br>
+</body>
+<footer>
+    <script src="./main.js"></script>
+</footer>
+</html>
